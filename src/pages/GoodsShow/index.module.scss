@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img.jpg');
+}
+
+.imgShow {
+    width: 100vw;
+    // height: 30vh;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    // width: 10%;
+    // height: 20%;
+    width: 15%;
+    height: 13%;
+    background-image: url('./winner.svg');
+    background-size: cover;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+// .big {
+//     width: 100vw;
+//     height: 55vh;
+//     background-image: url('./winner.svg');
+//     background-size: cover;
+// }
+
+.bigImg {
+    width: 100%;
+    height: 80%;
+}
+
+.loading {
+    width: 100vw;
+    height: 10vh;
+    border: none;
+    background: transparent;
+}
+
+.loadingImg {
+    width: 5%;
+    height: 30%;
+    background-image: url('./loading.svg');
+    background-size: cover;
+    margin: auto;
+}
+
+.loadingFont {
+    color: #0584a3;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img.jpg');
+}
+
+.content {
+    width: 100vw;
+    height: 20vh;
+    font-size: 24px;
+    color: rgb(5, 132, 163);
+    padding: 70px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.choose {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose button {
+    width: 110px;
+    height: 50px;
+    background-color: #409EFF;
+    border: none;
+    margin: 10px;
+    font-size: 16px;
+    color: #ffffff;
+}

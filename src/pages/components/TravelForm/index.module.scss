@@ -1,0 +1,39 @@
+.travelForm {
+    width: 100vw;
+    height: 85vh;
+    // background-image: url('./img.jpg');
+}
+
+.travelForm label {
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(5, 132, 163);
+}
+
+input {
+    margin-left: 5px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid rgb(5, 132, 163);
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgb(5, 132, 163);
+}
+
+.remarks textarea {
+    height: 100px;
+}
+
+.submitbutton {
+    width: 20%;
+    height: 10%;
+    border: none;
+    background: rgb(5, 132, 163);
+    margin: 5% 40%;
+    color: #ffffff;
+}

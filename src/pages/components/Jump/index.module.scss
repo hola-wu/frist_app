@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jumpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumpContainer button {
+    border: none;
+    background: transparent;
+    color: rgb(5, 132, 163);
+    margin: 10%;
+}
+
+.jumpContainer div {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticTacToe {
+    background-image: url('./ticTacToe.svg');
+}
+
+.home {
+    background-image: url('./home.svg');
+}
+
+.goodsShow {
+    background-image: url('./goodsShow.svg');
+}

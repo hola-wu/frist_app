@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img.jpg');
+    background-size: cover;
+}
+
+.board {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40%;
+}
+
+.reset {
+    width: 33%;
+    height: 40px;
+    border: none;
+    background: #409EFF;
+    color: #ffffff;
+    margin: 10% 33%;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+}
+
+.status {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winnerStatus {
+    color: #abff2d;
+}
+
+.fillstatus {
+    color: red;
+}
+
+.status span {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-image: url('./ing.svg');
+    background-size: 100%;
+}
+
+.winnerStatus span {
+    background-image: url('./winner.svg'),
+}
+
+.fillstatus span {
+    background-image: url('./fail.svg');
+}
+
+.board-row {
+    display: flex;
+}
